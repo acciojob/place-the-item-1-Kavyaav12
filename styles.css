@@ -1,2 +1,11 @@
+.holder {
+  display: flex;                  /* Enables Flexbox layout */
+  flex-wrap: wrap;               /* Allows items to wrap to new rows */
+  justify-content: space-between; /* Distributes space *between* items */
+}
+
+.item {
+  flex: 0 1 auto;                 /* Prevents shrinking, allows wrapping */
+}
 
 /* Your CSS Code here. */
